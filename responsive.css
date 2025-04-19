@@ -1,0 +1,136 @@
+@media(max-width:990px){
+    html{
+        font-size: 55.5%;
+} 
+    .home{
+        flex-flow: column-reverse;
+        padding: 8rem 0;
+         padding-top: 15rem;
+    }
+    .about{
+        flex-flow: column-reverse;
+        padding: 8rem 0;
+         padding-top: 15rem;
+    }
+}
+
+
+@media(max-width:700px){
+    *{
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html{
+        font-size: 30.5%;
+    }
+    .home img{
+        height: 35rem;
+        width: 35rem;
+        position: relative;
+        right:40px;
+        margin-bottom: 30px;
+    }
+    .home{
+        padding: 8rem 0;
+        margin-left: 20px;
+    }
+    section{
+        padding: 1rem;
+    }
+    .about{
+        padding: 8rem 0;
+        margin-left: 5px;
+    }
+    .about img {
+        height: 35rem;
+        width: 35rem;
+        justify-content: center;
+        margin-bottom: 30px;
+        position: relative;
+        left:60px;
+    
+    }
+    .about img:hover{
+        box-shadow: 0 0 2.5rem rgb(255, 102, 255),
+                    0 0 5rem rgb(255, 102, 255),
+                    0 0 10rem rgb(255, 102, 255);
+    }
+    .about-content {
+        max-width: 50rem;
+        color: var(--text-color);
+    }
+    .about .head{
+        color:white;
+        text-transform: capitalize;
+        font-size:10px;
+      
+    }
+    
+    .header{
+        position: relative;
+        padding: 0;
+    }
+    .header .logo,
+    .header {
+        padding: 1rem;
+    }
+    .menu i{
+        display: flex;
+        position:relative;
+        left:40px;
+    }
+    .header .navbar.active{
+        display: grid;
+    }
+    .header .navbar{
+        position: absolute;
+        top: 7rem;
+        display: none;
+        text-align: center;
+        justify-content: center;
+        background-color:rgb(255, 102, 255);
+        width: 100%;
+        gap: 2rem;
+        padding: 1rem;
+    }
+    .header .navbar a{
+        width: 100%;
+        padding: 1rem;
+    }
+    .education .timeline-items{
+        display: grid;
+        margin-left:10px;
+
+    }
+}
+@media(max-width:450px){
+    
+    .home .content p{
+        width: 35rem;
+    }
+    .education .timeline-items{
+        display: grid;
+
+    }
+    .contact .form-container form{
+        display: grid;
+       
+    }
+    .contact .form-container form .inputs,
+    .contact .form-container form .text{
+    width: 100%;
+}
+.contact .form-container form .inputs .input,
+.contact .form-container form .text textarea{
+   
+    width: 100%;
+}
+.contact{
+    padding: 1rem 0;
+    margin-left: 40px;
+}
+
+
+}
